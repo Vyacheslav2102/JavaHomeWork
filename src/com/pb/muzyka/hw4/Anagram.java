@@ -69,5 +69,9 @@ public class Anagram {
                 }
             }
         }
+
+        if(res_str == words_first.length){
+            System.out.print("Данные строки являются анаграммами");
+        }
     }
 }
